@@ -1,0 +1,10 @@
+*********pseudocode for countries page **********
+
+display 5 countries
+go to the box
+*i want to pick 5 items
+pick 1 item
+repeat the steps
+count whiles picking
+repeat the steps till we get 5
+store it in a container
