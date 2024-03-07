@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-div{
+    
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        padding:20px;
+}
+
+.inner-div{
+   
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 1px solid rgba(48, 46, 46, 0.5);
+    border-radius: 8px;
+}
+
+.flag-img{
+width: 100%;
+padding: 10px;
+
+}
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.countryButton{
+   
+    border-radius: 8px;
+    background-color: wheat;
+    border: none;
+    padding: 10px;
+}
